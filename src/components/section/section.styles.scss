@@ -1,0 +1,14 @@
+
+.section__container {
+    margin-bottom: 20px;
+
+    .section__header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+
+        .section__link {
+            text-decoration: underline;
+        }
+    }
+}

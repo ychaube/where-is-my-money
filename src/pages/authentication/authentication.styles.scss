@@ -1,0 +1,12 @@
+
+.auth__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .auth__section--form {
+        min-width: 60vw;
+        border: 1px solid red;
+    }
+
+}

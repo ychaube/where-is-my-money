@@ -1,0 +1,62 @@
+.my__accounts__container {
+    display: flex;
+    gap: 20px;
+    overflow: scroll;
+    padding-right: 50px;
+
+    &::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .account__container {
+        min-width: 150px;
+        border: 1px solid #00000014;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        box-shadow: 5px 5px 5px 0px #00000014;
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        // &.account__type--credit {
+        //     background: linear-gradient(270deg, #BD6352 2.78%, #A33E43 96.53%);
+        //     color: #fff;
+        // }
+
+        // &.account__type--debit {
+        //     background: linear-gradient(270deg, #85cd98 2.78%, #67af73 96.53%);
+        //     color: #fff;
+        // }
+
+        // &.account__type--cash {
+        //     background: linear-gradient(270deg, #85accd 2.78%, #6784af 96.53%);
+        //     color: #fff;
+        // }
+    
+        .account__info {
+            display: flex;
+            justify-content: space-between;
+
+            .account__name {
+                font-weight: bold;
+            }
+
+            .account__type {
+            }
+        }
+
+        .account__details {
+            display: flex;
+            align-items: baseline;
+            gap: 2px;
+            .account__currency {
+                font-size: 20px;
+            }
+            .account__amount {
+                font-size: 30px;
+            }   
+        }
+    }
+}
